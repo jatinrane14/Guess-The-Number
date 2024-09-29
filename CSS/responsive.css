@@ -1,0 +1,21 @@
+@media screen and (max-width: 1184px){
+    .main-container{
+        height: 100vh;
+        display: grid;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 5px;
+        width: 100vw;
+    }
+    .game-display{
+        
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }  
+    footer{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/responsive.css">
+
+
+</head>
+
+<body>
+  <nav>
+    <div class="titlepage">
+      <h1>Number Gussing Game</h1>
+    </div>
+    <div class="tagline">
+      <h1>Made With Love
+      </h1>
+      <img src="./Assets/Images/wired-outline-1249-heart-beat-loop-cycle.gif" alt="" srcset="">
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="main-container">
+
+      <div class="game-display">
+        <div class="hint">
+          <p>Hint Left</p>
+          <div >
+            <span class="hintcount">1 </span>
+            <span>/ 1</span>
+          </div>
+        </div>
+
+        <div class="user-display">
+          <div class="gme-status-con">
+            <p hidden class="gme-status">
+            </p>
+          </div>
+          <div class="display">
+            <p>Guess Any number Between 0 to 50
+            </p>
+            <input id="userIn" class="user-num" type="text" placeholder="Guess The Number" maxlength="2"
+              autocomplete="off">
+              <div class="buttons">
+                <button class="Restart" onclick="location.reload()">Restart</button>
+                <button class="guess-submit" type="submit">Submit</button>
+              </div>
+          </div>
+          
+        </div>
+
+        <div class="lifes">
+          <p>Tou Have Chances left</p>
+          <div>
+            <span class="remaining-count">10 </span>
+            <span>/10</span>
+          </div>
+          <!-- <img class="heart-break-gif" src="./Assets/Images/wired-outline-20-love-heart-morph-heart-broken.gif" alt="" srcset=""> -->
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="hint-button">
+      <img class="hint-btn-gif" src="./Assets/Images/wired-outline-20-love-heart-hover-heartbeat-alt.gif"></img>
+    </div>
+
+
+
+
+  </main>
+  <footer>
+    <p>Copyright &copy Jatin Rane 2024</p>
+  </footer>
+  <script src="./Js/style.js" defer=""></script>
+</body>
+
+</html>
