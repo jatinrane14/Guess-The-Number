@@ -18,7 +18,7 @@
 ### Links
 
 - Solution URL: [GitHub](https://github.com/jatinrane14/Guess-The-Number/)
-- Live Site URL: [GitHub Page](https://jatinrane14.github.io/Guess-The-number/)
+- Live Site URL: [GitHub Page](https://jatinrane14.github.io/Guess-The-Number/)
 
 
 ### Built with
