@@ -13,7 +13,9 @@
     --Bgcolor3:hsl(219, 14%, 39%);
 }
 body{
-    background-color:var(--Bgcolor1);
+    /*background-color:var(--Bgcolor1);*/
+     background-image: linear-gradient(#04142d,#1c073e);
+    color: white;
     color: white;
     position: relative;
     transition: all ease-in-out 1s;
@@ -97,8 +99,10 @@ nav{
     background-color: var(--Txtcolor2);
     cursor: pointer;
     color: black;
+     font-weight: 550;
 }
 .guess-submit{
+     font-weight: 550;
     padding: 10px;
     width: 150px;
     border: none;
