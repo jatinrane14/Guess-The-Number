@@ -27,6 +27,7 @@ let count = 10;
         gst.style.color = "#11ff11"
         guessSubmitBtn.disabled = true; 
         guessSubmitBtn.style = "cursor: not-allowed";
+        confetti();
       } else {
         count--;
         rcount.innerText = count;
